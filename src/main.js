@@ -1,8 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
+/* import router from './router'
+import store from './store/index' */
+import vueCustomElement from 'vue-custom-element'
 
-Vue.config.productionTip = false
+Vue.use(vueCustomElement)
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+/* App.store = store
+App.router = router */
+Vue.customElement('vue-widget', App)
