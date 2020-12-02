@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="widget-app">
     <img alt="Vue logo" src="https://github.com/ramigs/vue-widget/raw/master/src/assets/logo.png">
     <HelloWorld msg="Vue Widget"/>
   </div>
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style>
-#app {
+#widget-app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
