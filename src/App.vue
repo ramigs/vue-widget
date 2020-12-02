@@ -1,8 +1,8 @@
 <template>
-  <iframe id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </iframe>
+  <div id="app">
+    <img alt="Vue logo" src="https://github.com/ramigs/vue-widget/raw/master/src/assets/logo.png">
+    <HelloWorld msg="Vue Widget"/>
+  </div>
 </template>
 
 <script>
